@@ -3,26 +3,109 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title + MyLayout</title>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Fonts-->
+    @Styles.Render("~/Content/")
+    @*<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">*@
+    <!-- Vendors-->
+    @*<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
+        <link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">*@
+    <!-- App & fonts-->
+    @*@Styles.Render("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700")*@
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
+    @*<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css">*@
+    @*[if lt IE 9]>*@
+    @Scripts.Render("https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")
+    @*<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>*@
+    @*<![endif]*@
+
 </head>
 <body>
-    <header>
-        <h1>My First ASP.Net Framework Application</h1>
-        <nav>
-            <ul>
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("History", "History", "Home")</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        @RenderBody()
-    </main>
+    <div class="page-wrap" id="root">
+        <!-- header -->
+        <header class="header header--fixed">
+            <div class="header__inner">
+                <div class="header__logo"><a href="index.html"><img src="~/Content/logo.png" alt="" style="width: 122px;" /></a></div>
+                <div class="navbar-toggle" id="fs-button">
+                    <div class="navbar-icon"><span></span></div>
+                </div>
+            </div>
+            <!-- fullscreenmenu__module -->
+            <div class="fullscreenmenu__module" trigger="#fs-button">
+                <!-- overlay-menu -->
+                <nav class="overlay-menu">
+                    <!--  -->
+                    <ul class="wil-menu-list">
+                        <li class="current-menu-item">
+                            @Html.ActionLink("Home", "Index", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("About", "About", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Work", "Work", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Blog", "Blog", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Contact", "Contact", "Home")
+                        </li>
+                    </ul><!--  -->
+                </nav><!-- End / overlay-menu -->
+            </div><!-- End / fullscreenmenu__module -->
+        </header><!-- End / header -->
 
-    <footer>
-        <div>&copy 2021 ITStep</div>
-        <div> @RenderSection("FooterSection", false)</div>
-    </footer>
+        <main>
+
+            @RenderBody()
+
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 ">
+                            <p class="footer__coppy">2021 &copy; ITStep <a href="http://awe7.com/">Awe7</a>. All rights Reserved.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-6 ">
+                            <div class="footer__social">
+
+                                <!-- social-icon -->
+                                <a class="social-icon" href="#">
+                                    <i class="social-icon__icon fa fa-facebook"></i>
+                                </a><!-- End / social-icon -->
+                                <!-- social-icon -->
+                                <a class="social-icon" href="#">
+                                    <i class="social-icon__icon fa fa-twitter"></i>
+                                </a><!-- End / social-icon -->
+                                <!-- social-icon -->
+                                <a class="social-icon" href="#">
+                                    <i class="social-icon__icon fa fa-linkedin"></i>
+                                </a><!-- End / social-icon -->
+                                <!-- social-icon -->
+                                <a class="social-icon" href="#">
+                                    <i class="social-icon__icon fa fa-behance"></i>
+                                </a><!-- End / social-icon -->
+                                <!-- social-icon -->
+                                <a class="social-icon" href="#">
+                                    <i class="social-icon__icon fa fa-vimeo"></i>
+                                </a><!-- End / social-icon -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End / footer -->
+        </footer>
+    </div>
+    @Scripts.Render("~/Scripts/Script_new/")
 </body>
 </html>

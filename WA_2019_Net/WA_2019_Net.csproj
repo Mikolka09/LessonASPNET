@@ -138,12 +138,29 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\grid.css" />
+    <Content Include="Content\logo.png" />
+    <Content Include="Content\magnific-popup.min.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\pe-icon.css" />
+    <Content Include="Content\swiper.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fonts_new\fontawesome-webfont.svg" />
+    <Content Include="fonts\fonts_new\Pe-icon-7-stroke.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\fonts_new\fontawesome-webfont.eot" />
+    <Content Include="fonts\fonts_new\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fonts_new\fontawesome-webfont.woff" />
+    <Content Include="fonts\fonts_new\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fonts_new\FontAwesome.otf" />
+    <Content Include="fonts\fonts_new\Pe-icon-7-stroke.eot" />
+    <Content Include="fonts\fonts_new\Pe-icon-7-stroke.ttf" />
+    <Content Include="fonts\fonts_new\Pe-icon-7-stroke.woff" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -155,6 +172,18 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Script_new\imagesloaded.pkgd.js" />
+    <Content Include="Scripts\Script_new\isotope.pkgd.js" />
+    <Content Include="Scripts\Script_new\jquery.easing.min.js" />
+    <Content Include="Scripts\Script_new\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\Script_new\jquery.matchHeight.min.js" />
+    <Content Include="Scripts\Script_new\jquery.min.js" />
+    <Content Include="Scripts\Script_new\jquery.nav.min.js" />
+    <Content Include="Scripts\Script_new\jquery.waypoints.min.js" />
+    <Content Include="Scripts\Script_new\masonry.pkgd.js" />
+    <Content Include="Scripts\Script_new\menu.js" />
+    <Content Include="Scripts\Script_new\swiper.jquery.js" />
+    <Content Include="Scripts\Script_new\typed.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -169,7 +198,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\History.cshtml" />
+    <Content Include="Views\Home\Minimis.cshtml" />
     <Content Include="Views\Shared\MyLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>

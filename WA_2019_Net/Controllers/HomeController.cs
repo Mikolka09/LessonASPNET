@@ -27,11 +27,9 @@ namespace WA_2019_Net.Controllers
             return View();
         }
 
-        public ActionResult History()
+        public ActionResult Minimis()
         {
             ViewBag.FirstName = "Nick Matios";
-            ViewBag.Key = "Val";
-            ViewBag.Title = "My Title";
 
             return View();
         }

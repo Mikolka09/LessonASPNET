@@ -79,7 +79,6 @@ D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\ru\System.Web.Razor.resources.dll
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\ru\System.Web.WebPages.resources.dll
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\ru\System.Web.WebPages.Deployment.resources.dll
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\ru\System.Web.WebPages.Razor.resources.dll
-D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\obj\Debug\WA_2019_Net.csprojAssemblyReference.cache
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\obj\Debug\WA_2019_Net.csproj.CoreCompileInputs.cache
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\obj\Debug\WA_2019_Net.csproj.CopyComplete
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\obj\Debug\WA_2019_Net.dll
@@ -88,3 +87,4 @@ D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\EntityFramework.dll
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\EntityFramework.SqlServer.dll
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\EntityFramework.xml
 D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\bin\EntityFramework.SqlServer.xml
+D:\Users\MIKOLKA\LessonASPNET\WA_2019_Net\obj\Debug\WA_2019_Net.csproj.AssemblyReference.cache
